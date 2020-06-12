@@ -3,7 +3,7 @@ import React from "react"
 const AboutMe = () => {
     return (
         <div className="aboutMe">
-            <h1 id="aboutMeTitle">About Me</h1>
+            <p id="aboutMeTitle">About Me</p>
             <p className="aboutMeParagraph">I have 3 years experience working with programming. I don't have any professional expierence
             yet as a software engineer, but I'm currently seeking employment. I have experience working
             with Java, C#, Ruby, Rails, Javascript, React, Redux, SQL, HTML, and CSS. I aspire to be a

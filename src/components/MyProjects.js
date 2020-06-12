@@ -11,8 +11,8 @@ class MyProjects extends React.Component {
 
     render() {
         const opts = {
-            height: '390',
-            width: '540',
+            height: '380',
+            width: '400',
             playerVars: {
                 autoplay: 0,
             },
