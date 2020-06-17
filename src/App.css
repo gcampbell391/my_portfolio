@@ -51,6 +51,7 @@
   color:white;
   padding-bottom: 10px;
   text-shadow: 2px 2px black;
+  font-size:30px;
 }
 
 .infoBody{
@@ -80,6 +81,7 @@
   margin-left: 200px;
   margin-right: 200px;
   color: #0000CD;
+  font-size: 30px;
 }
 
 .interests{
@@ -93,12 +95,14 @@
   border-bottom: 2px solid #0000CD;
   margin-left: 200px;
   margin-right: 200px;
+  font-size: 30px;
 }
 
 #educationTitle{
   border-bottom: 2px solid #0000CD;
   margin-left: 170px;
   margin-right: 170px;
+  font-size: 30px;
 }
 
 .interestList{ 
@@ -106,7 +110,7 @@
   text-align: left;
   margin-left: 100px;
   margin-right: 50px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .interestList li{
   margin-bottom: 5px;
@@ -188,6 +192,28 @@ padding-bottom: 10px;
   text-shadow: 2px 2px black;
 }
 
+
+.currentProject{
+  background-color: white;
+}
+
+.currentProjectTitle{
+  font-size: 30px;
+  border-bottom: 2px solid #0000CD;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-bottom: 5px;
+  color: #0000CD;
+}
+
+.currentProjectDesc{
+  color:#1E90FF;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
 
 @media only screen and (max-width: 750px) {
   .header{
@@ -349,4 +375,21 @@ padding-bottom: 10px;
   }
   
 
+  .currentProjectTitle{
+    font-size: 30px;
+    border-bottom: 2px solid #0000CD;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 5px;
+    color: #0000CD;
+  }
+  
+  .currentProjectDesc{
+    color:#1E90FF;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+  }
 }
