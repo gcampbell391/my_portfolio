@@ -17,6 +17,7 @@
   margin-left: 20px;
   text-shadow: 2px 2px black;
   margin-bottom: -1px;
+  animation: left_to_right 1s ease;
 }
 
 .navBar{
@@ -28,6 +29,7 @@
   margin-top: 10px;
   margin-right: 20px;
   text-shadow: 2px 2px black;
+  
 }
 #selfieImg{
   margin-top: 50px;
@@ -36,6 +38,8 @@
   width: 300px; 
   border:10px solid white;
   object-fit: cover;
+  animation: right_to_left_and_rotate 2s ease;
+
 }
 
 #nameProfileHeader{
@@ -135,6 +139,25 @@
   animation-iteration-count: infinite;
 }
 
+@keyframes right_to_left_and_rotate {
+  from {
+      margin-right: -100%;
+      transform: rotate(360deg);
+  }
+  to {
+      margin-right: 0;
+      transform: rotate(0deg)
+  }
+}
+@keyframes left_to_right {
+  from {
+      margin-left: -100%;
+  }
+  to {
+      margin-left: 0;
+  }
+}
+
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -166,6 +189,7 @@ padding-bottom: 10px;
 
 #videoOne{
   width:50%;
+  animation: left_to_right 2s ease;
 }
 
 #DGAA{
@@ -174,6 +198,8 @@ padding-bottom: 10px;
 
 #videoTwo{
   width:50%;
+  animation: right_to_left 2s ease;
+
 }
 
 #Market365{
