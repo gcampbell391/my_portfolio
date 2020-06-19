@@ -17,7 +17,7 @@
   margin-left: 20px;
   text-shadow: 2px 2px black;
   margin-bottom: -1px;
-  animation: left_to_right 1s ease;
+  animation: left_to_right 2s ease;
 }
 
 .navBar{
@@ -49,6 +49,7 @@
   margin-right: 400px;
   margin-left: 400px;
   text-shadow: 2px 2px black;
+  animation: bounceIn 2s;
 }
 
 #bioProfileHeader{
@@ -56,6 +57,7 @@
   padding-bottom: 10px;
   text-shadow: 2px 2px black;
   font-size:30px;
+  animation: bounceIn 2s;
 }
 
 .infoBody{
@@ -157,6 +159,28 @@
       margin-left: 0;
   }
 }
+  @keyframes right_to_left {
+    from {
+        margin-right: -100%;
+    }
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -189,7 +213,8 @@ padding-bottom: 10px;
 
 #videoOne{
   width:50%;
-  animation: left_to_right 2s ease;
+  animation: bounceIn 2s;
+  animation-delay: 2s;
 }
 
 #DGAA{
@@ -198,8 +223,8 @@ padding-bottom: 10px;
 
 #videoTwo{
   width:50%;
-  animation: right_to_left 2s ease;
-
+  animation: bounceIn 2s;
+  animation-delay: 2s;
 }
 
 #Market365{
