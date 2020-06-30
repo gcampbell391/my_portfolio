@@ -8,6 +8,7 @@ import MyProjects from "./components/MyProjects"
 import ContactMe from "./components/ContactMe"
 import Footer from './components/Footer';
 import CurrentProject from './components/CurrentProject';
+import DeployedApps from './components/DeployedApps';
 
 
 class App extends React.Component {
@@ -25,6 +26,7 @@ class App extends React.Component {
         </div>
         <CurrentProject />
         <MyProjects />
+        <DeployedApps />
         <ContactMe handleSendClick={this.handleSendClick} />
         <Footer />
       </div>
