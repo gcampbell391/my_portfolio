@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div className="aboutMe">
             <p id="aboutMeTitle">About Me</p>
-            <p className="aboutMeParagraph">I have 3 years experience working with programming. I don't have any professional expierence
+            <p className="aboutMeParagraph">I have 3 years experience working with programming. I don't have any professional experience
             yet as a software engineer, but I'm currently seeking employment. I have experience working
             with Java, C#, Ruby, Rails, Javascript, React, Redux, SQL, HTML, and CSS. I aspire to be a
             full stack engineer as I enjoy working with the front end and back end. I have always been
