@@ -282,29 +282,18 @@ padding-bottom: 10px;
   margin-right: 400px;
   padding-top: 20px;
   text-shadow: 2px 2px black;
+  
 }
 
 .deployedApp{
-  flex-grow: 1;
-  height: 400px;
-  background-color: #0000CD;
-  position: relative;
-  border: 1px solid lighten(black, 10);
-  transition: all 300ms ease-in-out;  
-  color:white;
-  text-shadow: 2px 2px black;
+max-width: 500px;
+margin: auto;
 
 }
 .deployedApp:hover {
-    flex-grow: 4.3;
     filter: brightness(120%)
   }
-.deployedApp:before{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .deployedAppImg{
   height: 300px;
@@ -318,6 +307,64 @@ padding-bottom: 10px;
   text-shadow: 2px 2px black;
   padding-bottom: 20px;
   font-size: 20px;
+}
+
+#wtwTitle{
+  padding-top: 20px;
+  color: #fff;
+  -webkit-animation: glow1 1s ease-in-out infinite alternate;
+  -moz-animation: glow1 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+
+#if2Title{
+  padding-top: 20px;
+  color: #fff;
+  -webkit-animation: glow2 1s ease-in-out infinite alternate;
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
+#ccTitle{
+  padding-top: 20px;
+  color: #fff;
+  -webkit-animation: glow3 1s ease-in-out infinite alternate;
+  -moz-animation: glow3 1s ease-in-out infinite alternate;
+  animation: glow3 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2300e6, 0 0 40px #2300e6, 0 0 50px #2300e6, 0 0 60px #2300e6, 0 0 70px #2300e6;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 30px #4dffd8, 0 0 40px #4dffd8, 0 0 50px #4dffd8, 0 0 60px #4dffd8, 0 0 70px #4dffd8, 0 0 80px #4dffd8;
+  }
+}
+@keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e69d00, 0 0 40px #e69d00, 0 0 50px #e69d00, 0 0 60px #e69d00, 0 0 70px #e69d00;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4df0, 0 0 40px #ff4df0, 0 0 50px #ff4df0, 0 0 60px #ff4df0, 0 0 70px #ff4df0, 0 0 80px #ff4df0;
+  }
+}
+@keyframes glow3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b000e6, 0 0 40px #b000e6, 0 0 50px #b000e6, 0 0 60px #b000e6, 0 0 70px #b000e6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4df0, 0 0 40px #ff4df0, 0 0 50px #ff4df0, 0 0 60px #ff4df0, 0 0 70px #ff4df0, 0 0 80px #ff4df0;
+  }
+}
+
+.deployedAppDesc{
+  color:white;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 
