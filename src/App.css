@@ -1,13 +1,72 @@
 .app{
   text-align: center;
+  background-color: black;
+}
+  /* background:linear-gradient(-45deg, #264653,gray,whitesmoke ,black);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite; 
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+} */
+
+.myProfileBackground{
   background-color:	#1E90FF;
 }
-
 .header{
   display:flex;
-  background-color: #0000CD;
+  background-color:black;
   padding-top: 10px;
+  
 }
+
+.myProfile{
+  height: 400px;
+  max-height: 400px;
+  margin-bottom: 300px;
+  background-color: hsla(200,40%,30%,.4);
+  background-image:       
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+  background-repeat: repeat-x;
+  background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+  background-size: 
+      2500px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+  animation: 50s para infinite linear;
+  }
+
+@keyframes para {
+  100% {
+      background-position: 
+          -5000px 20%,
+          -800px 95%,
+          500px 50%,
+          1000px 100%,
+          400px 0;
+      }
+  }
+
+
 
 .nameHeader{
   text-align: left;
@@ -31,16 +90,6 @@
   text-shadow: 2px 2px black;
   
 }
-#selfieImg{
-  margin-top: 50px;
-  border-radius: 100%;
-  height:300px;
-  width: 300px; 
-  border:10px solid white;
-  object-fit: cover;
-  animation: right_to_left_and_rotate 2s ease;
-
-}
 
 #nameProfileHeader{
   color:white;
@@ -56,67 +105,133 @@
   color:white;
   padding-bottom: 10px;
   text-shadow: 2px 2px black;
-  font-size:30px;
+  font-size:70px;
   animation: bounceIn 2s;
+  padding-top: 50px;
 }
 
 .infoBody{
   display: flex;
-  height: 100%;
+  height: 600px;
 }
 
+
 .aboutMe{
-  font-size: 25px;
   padding-top: 10px;
   width: 50%;
-  background-color: white;
-  color:#1E90FF;
+  height:100%;
+  max-height: 500px;
+  color:white;
+  background-color: #ffa62b;
   font-weight: bold;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageCarousel{
+  width: 50%; 
+  height:100%;
+  max-height: 500px;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel .slide{
+  max-height: 500px;
+  
+}
+
+.interestsCarousel{
+  width: 50%; 
+  height:100%;
+  max-height: 500px;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#selfieImg{
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.officeImgs{
+  height:500px;
+  border-radius: 10px;
 }
 
 .aboutMeParagraph{
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 18px;
+  text-shadow: 1px 1px black;
+  font-size: 17px;
   text-align: left;
   padding-bottom: 10px;
+  margin-top: -20px;
+  height:100%;
 }
 
 #aboutMeTitle{
-  border-bottom: 2px solid #0000CD;
-  margin-left: 200px;
-  margin-right: 200px;
-  color: #0000CD;
-  font-size: 30px;
+  border-bottom: 2px solid #3c6e71;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #3c6e71;
+  font-size: 40px;
+  text-shadow: 1px 1px white;
 }
 
 .interests{
+  padding-top: 10px;
   width: 50%;
-  background-color: white;
-  color:#0000CD;
+  height:100%;
+  max-height: 500px;
+  color:white;
+  background-color: #ffa62b;
   font-weight: bold;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #interestTitle{
-  border-bottom: 2px solid #0000CD;
+  border-bottom: 2px solid #3c6e71;;
   margin-left: 200px;
   margin-right: 200px;
-  font-size: 30px;
+  font-size: 40px;
+  color: #3c6e71;
+  text-shadow: 1px 1px white;
 }
 
 #educationTitle{
-  border-bottom: 2px solid #0000CD;
-  margin-left: 170px;
-  margin-right: 170px;
-  font-size: 30px;
+  border-bottom: 2px solid #3c6e71;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 40px;
+  color: #3c6e71;
+  text-shadow: 1px 1px white;
 }
 
 .interestList{ 
-  color:#1E90FF;
   text-align: left;
   margin-left: 100px;
   margin-right: 50px;
-  font-size: 20px;
+  font-size: 17px;
+  text-shadow: 1px 1px black;
 }
 .interestList li{
   margin-bottom: 5px;
@@ -134,8 +249,17 @@
   margin-left: 150px;
   margin-right: 150px;
   text-shadow: 2px 2px black;
+  color: #ffa62b;
 }
-
+a:visited{
+  color:white;
+}
+a{
+  color:white;
+}
+a:hover{
+  color: #ffa62b;
+}
 #contactMeTitle:hover{
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -197,34 +321,24 @@
 }
 
 #projectTitle{
-  color:white;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ffa62b;
   margin-left: 450px;
   margin-right: 450px;
   padding-top: 20px;
-  text-shadow: 2px 2px black;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px #3c6e71;
 }
 
 #youtubeDesc{
 text-shadow: 1px 1px black;
 color:white;
-padding-bottom: 10px;
-}
-
-#videoOne{
-  width:50%;
-  animation: bounceIn 2s;
-  animation-delay: 2s;
+font-size: 20px;
+padding-bottom: 30px;
 }
 
 #DGAA{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#videoTwo{
-  width:50%;
-  animation: bounceIn 2s;
-  animation-delay: 2s;
 }
 
 #Market365{
@@ -233,37 +347,52 @@ padding-bottom: 10px;
 
 .videoContainer{
   padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
+  width:700px;
+  margin: auto;
+
 }
 
 .Footer{
   padding-top: 10px;
   color:  white;
+  text-align: right;
+  margin-right: 10px;
   text-shadow: 2px 2px black;
 }
 
-
 .currentProject{
-  background-color: white;
+  background-color: #ffa62b;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgb,a(0, 0, 0, 0.4) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .currentProjectTitle{
-  font-size: 30px;
-  border-bottom: 2px solid #0000CD;
-  margin-left: 400px;
-  margin-right: 400px;
+  font-size: 40px;
+  border-bottom: 2px solid #3c6e71;
+  margin-left: 200px;
+  margin-right: 200px;
   padding-bottom: 5px;
-  color: #0000CD;
+  color:#3c6e71;
+  text-shadow: 1px 1px white;
 }
 
 .currentProjectDesc{
-  color:#1E90FF;
+  color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
   margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 30px;
+  text-shadow: 1px 1px black;
+}
+
+.deployedAppsContainer{
+  width:800px;
+  margin: auto;
 }
 
 .deployedApps{
@@ -276,20 +405,16 @@ padding-bottom: 10px;
 }
 
 .deployedAppsTitle{
-  color:white;
-  border-bottom: 2px solid white;
-  margin-left: 400px;
-  margin-right: 400px;
+  border-bottom: 2px solid #ffa62b;
+  margin-left: 100px;
+  margin-right: 100px;
   padding-top: 20px;
-  text-shadow: 2px 2px black;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px #3c6e71;
   
 }
 
-.deployedApp{
-max-width: 500px;
-margin: auto;
-
-}
 .deployedApp:hover {
     filter: brightness(120%)
   }
@@ -297,7 +422,7 @@ margin: auto;
 
 .deployedAppImg{
   height: 300px;
-  width: 500px;
+  width: 600px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -311,6 +436,7 @@ margin: auto;
 
 #wtwTitle{
   padding-top: 20px;
+  font-size: 35px;
   color: #fff;
   -webkit-animation: glow1 1s ease-in-out infinite alternate;
   -moz-animation: glow1 1s ease-in-out infinite alternate;
@@ -320,6 +446,7 @@ margin: auto;
 #if2Title{
   padding-top: 20px;
   color: #fff;
+  font-size: 35px;
   -webkit-animation: glow2 1s ease-in-out infinite alternate;
   -moz-animation: glow2 1s ease-in-out infinite alternate;
   animation: glow2 1s ease-in-out infinite alternate;
@@ -328,6 +455,7 @@ margin: auto;
 #ccTitle{
   padding-top: 20px;
   color: #fff;
+  font-size: 35px;
   -webkit-animation: glow3 1s ease-in-out infinite alternate;
   -moz-animation: glow3 1s ease-in-out infinite alternate;
   animation: glow3 1s ease-in-out infinite alternate;
@@ -337,7 +465,7 @@ margin: auto;
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2300e6, 0 0 40px #2300e6, 0 0 50px #2300e6, 0 0 60px #2300e6, 0 0 70px #2300e6;
   }
-  
+
   to {
     text-shadow: 0 0 10px #fff, 0 0 30px #4dffd8, 0 0 40px #4dffd8, 0 0 50px #4dffd8, 0 0 60px #4dffd8, 0 0 70px #4dffd8, 0 0 80px #4dffd8;
   }
@@ -364,7 +492,7 @@ margin: auto;
 .deployedAppDesc{
   color:white;
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 

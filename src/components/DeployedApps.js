@@ -22,7 +22,7 @@ const DeployedApps = () => {
         }
     };
     return (
-        <div>
+        <div className="deployedAppsContainer">
             <h1 className="deployedAppsTitle">Deployed Applications</h1>
             <Carousel
                 responsive={responsive}
@@ -33,23 +33,23 @@ const DeployedApps = () => {
                 keyBoardControl={true}
             // centerMode={true} centers the main and shows partial of the others
             >
-                <div>
+                <div className="deployedApp">
                     <h1 id="wtwTitle">Whats the Weather?</h1>
                     <a href="https://whats-the-weather-app.herokuapp.com/" target="blank"><img className="deployedAppImg" src={require('../images/WhatsTheWeatherSS.png')} alt="Whats the Weather?" /></a>
                     <p className="deployedAppDesc">A simple weather fetching app created with Node js using WeatherStack and Geocode</p>
                 </div>
-                <div  >
+                <div className="deployedApp">
                     <h1 id="if2Title">Interdimensional Fighters 2.0</h1>
                     <a href="https://interdimensional-fighters-2.herokuapp.com/" target="blank"><img className="deployedAppImg" src={require('../images/InterdimensionalFightersSS.png')} alt="Interdimensional Fighters" /></a>
                     <p className="deployedAppDesc">A turn based fighting game created with Rails in the back and React with Hooks in the front</p>
                 </div>
-                <div >
+                <div className="deployedApp">
                     <h1 id="ccTitle">Chit Chatter</h1>
                     <a href="https://chit-chatter-app.herokuapp.com/" target="blank"><img className="deployedAppImg" src={require('../images/ChitChatter.png')} alt="Chit Chatter" /></a>
                     <p className="deployedAppDesc">A simple chat app created with Node js, express, and socket.io</p>
                 </div>
             </Carousel>
-            <p className="deployedAppsDesc">Apps were deployed on Herkou, so they make take a mintue to boot up if they're asleep.</p>
+            <p className="deployedAppsDesc">Apps were deployed on Herkou, so they make take a minute to boot up if they're asleep.</p>
         </div>
 
     )

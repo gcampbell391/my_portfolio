@@ -7,10 +7,12 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
+    "react-blink-text": "^1.0.5",
     "react-dom": "^16.13.1",
     "react-multi-carousel": "^2.5.5",
     "react-responsive-carousel": "^3.2.9",
     "react-scripts": "3.4.1",
+    "react-typist": "^2.0.5",
     "react-youtube": "^7.11.2",
     "semantic-ui-react": "^0.88.2"
   },

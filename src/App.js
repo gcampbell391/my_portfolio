@@ -9,6 +9,8 @@ import ContactMe from "./components/ContactMe"
 import Footer from './components/Footer';
 import CurrentProject from './components/CurrentProject';
 import DeployedApps from './components/DeployedApps';
+import ImageCarousel from './components/ImageCarousel';
+import InterestsCarousel from './components/InterestsCarousel'
 
 
 class App extends React.Component {
@@ -19,12 +21,18 @@ class App extends React.Component {
     return (
       <div className="app">
         <Header />
-        <MyProfile />
-        <div className="infoBody">
-          <AboutMe />
-          <Interests />
+        <div className="myProfileBackground">
+          <MyProfile />
         </div>
         <CurrentProject />
+        <div className="infoBody">
+          <ImageCarousel />
+          <AboutMe />
+        </div>
+        <div className="infoBody">
+          <Interests />
+          <InterestsCarousel />
+        </div>
         <MyProjects />
         <DeployedApps />
         <ContactMe handleSendClick={this.handleSendClick} />
