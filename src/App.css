@@ -468,59 +468,26 @@ transform: skewY(11deg);
   font-family: 'Bungee Outline', cursive;
   padding-top: 20px;
   font-size: 35px;
-  color: #fff;
-  -webkit-animation: glow1 1s ease-in-out infinite alternate;
-  -moz-animation: glow1 1s ease-in-out infinite alternate;
-  animation: glow1 1s ease-in-out infinite alternate;
+  color: #118ab2;
+
 }
 
 #if2Title{
   font-family: 'Bungee Outline', cursive;
   padding-top: 20px;
-  color: #fff;
+  color: #ffd166;
   font-size: 35px;
-  -webkit-animation: glow2 1s ease-in-out infinite alternate;
-  -moz-animation: glow2 1s ease-in-out infinite alternate;
-  animation: glow2 1s ease-in-out infinite alternate;
+
 }
 
 #ccTitle{
   font-family: 'Bungee Outline', cursive;
   padding-top: 20px;
-  color: #fff;
+  color: #ef476f;
   font-size: 35px;
-  -webkit-animation: glow3 1s ease-in-out infinite alternate;
-  -moz-animation: glow3 1s ease-in-out infinite alternate;
-  animation: glow3 1s ease-in-out infinite alternate;
 }
 
-@keyframes glow1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2300e6, 0 0 40px #2300e6, 0 0 50px #2300e6, 0 0 60px #2300e6, 0 0 70px #2300e6;
-  }
 
-  to {
-    text-shadow: 0 0 10px #fff, 0 0 30px #4dffd8, 0 0 40px #4dffd8, 0 0 50px #4dffd8, 0 0 60px #4dffd8, 0 0 70px #4dffd8, 0 0 80px #4dffd8;
-  }
-}
-@keyframes glow2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e69d00, 0 0 40px #e69d00, 0 0 50px #e69d00, 0 0 60px #e69d00, 0 0 70px #e69d00;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4df0, 0 0 40px #ff4df0, 0 0 50px #ff4df0, 0 0 60px #ff4df0, 0 0 70px #ff4df0, 0 0 80px #ff4df0;
-  }
-}
-@keyframes glow3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b000e6, 0 0 40px #b000e6, 0 0 50px #b000e6, 0 0 60px #b000e6, 0 0 70px #b000e6;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4df0, 0 0 40px #ff4df0, 0 0 50px #ff4df0, 0 0 60px #ff4df0, 0 0 70px #ff4df0, 0 0 80px #ff4df0;
-  }
-}
 
 .deployedAppDesc{
   color:white;
