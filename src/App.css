@@ -69,9 +69,10 @@
 
 
 .nameHeader{
+  font-family: 'Bangers', cursive;
   text-align: left;
   color: white;
-  font-size: 70px;
+  font-size: 80px;
   width: 50%;
   margin-left: 20px;
   text-shadow: 2px 2px black;
@@ -83,12 +84,33 @@
   font-size: 20px;
   text-align: right;
   width: 50%;
-  margin-bottom: -1px;
+  padding-bottom: 10px;
   color:white; 
   margin-top: 10px;
   margin-right: 20px;
   text-shadow: 2px 2px black;
-  
+}
+
+#githubIcon:hover{
+  color: #06d6a0;
+}
+
+#mediumIcon:hover{
+  color: #ef476f;
+}
+
+#linkedInIcon:hover{
+  color:#118ab2;
+}
+
+#youTubeIcon:hover{
+  color:#ffd166;
+}
+
+span{
+  font-family: 'Bangers', cursive;
+  text-shadow: 2px 2px black;
+  color:white;
 }
 
 #nameProfileHeader{
@@ -111,59 +133,53 @@
 }
 
 .infoBody{
-  display: flex;
+  /* display: flex; */
   height: 600px;
 }
 
 
 .aboutMe{
   padding-top: 10px;
-  width: 50%;
-  height:500px;
+  width: 100%;
+  height:650px;
   max-height: 900px;
   color:white;
-  background-color: #ffa62b;
   font-weight: bold;
-  margin-right: 100px;
-  margin-left: 50px;
   margin-top: 50px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carouselContainer{
+  height: 720px;
+  display: flex;
+  padding-top: 200px;
 }
 
 .imageCarousel{
   width: 50%; 
-  height:100%;
-  max-height: 500px;
+  height:cover;
   margin-right: 50px;
-  margin-left: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-left: 50px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .carousel .slide{
-  max-height: 500px;
-  
+  height: 350px;
 }
 
 .interestsCarousel{
   width: 50%; 
   height:100%;
-  max-height: 500px;
-  margin-right: 100px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-right: 50px;
   margin-bottom: 50px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #selfieImg{
   width: 100%;
   border-radius: 10px;
   height: 100%;
-  max-height: 500px;
+  max-height: 350px;
   object-fit: cover;
 }
 
@@ -173,35 +189,28 @@
 }
 
 .aboutMeParagraph{
-  margin-left: 50px;
-  margin-right: 50px;
   text-shadow: 1px 1px black;
   font-size: 17px;
-  text-align: left;
+  text-align: center;
   padding-bottom: 10px;
   margin-top: -20px;
-  height:100%;
-}
+  font-family: 'Bungee Inline', cursive;}
 
 #aboutMeTitle{
-  border-bottom: 2px solid #3c6e71;
-  margin-left: 100px;
-  margin-right: 100px;
-  color: #3c6e71;
+  color: white;
+  padding-top: 150px;
   font-size: 40px;
-  text-shadow: 1px 1px white;
+  font-family: 'Bungee Shade', cursive;
 }
 
 .interests{
+  transform: skewY(-11deg);
   padding-top: 10px;
-  width: 50%;
-  height:100%;
-  max-height: 500px;
+  width: 100%;
+  height:650px;
   color:white;
-  background-color: #ffa62b;
+  background-color: #ef476f;
   font-weight: bold;
-  margin-right: 50px;
-  margin-left: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 10px;
@@ -209,29 +218,28 @@
 }
 
 #interestTitle{
-  border-bottom: 2px solid #3c6e71;;
-  margin-left: 200px;
-  margin-right: 200px;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 100px;
+  transform: skewY(11deg);
   font-size: 40px;
-  color: #3c6e71;
-  text-shadow: 1px 1px white;
+  margin-left: 30px;
+  text-shadow: 1px 1px black;
 }
 
 #educationTitle{
-  border-bottom: 2px solid #3c6e71;
-  margin-left: 120px;
-  margin-right: 120px;
+  font-family: 'Bungee Shade', cursive;
+  transform: skewY(11deg);
   font-size: 40px;
-  color: #3c6e71;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px black;
 }
 
 .interestList{ 
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 50px;
-  font-size: 17px;
+  transform: skewY(11deg);
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size: 20px;
   text-shadow: 1px 1px black;
+  list-style-type: none;
 }
 .interestList li{
   margin-bottom: 5px;
@@ -239,17 +247,20 @@
 
 .contactMe{
   color:white;
-  margin-right: 300px;
-  margin-left: 300px;
+  transform: skewY(-11deg);
   padding-bottom: 20px;;
+  margin-top: 50px;
+  height:300px;
+  background-color: #06d6a0;
 }
 
 #contactMeTitle{
-  font-size: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding-top: 100px;
+  transform: skewY(11deg);
+  font-size: 60px;
   text-shadow: 2px 2px black;
   color: #ffa62b;
+  font-family: 'Bungee Shade', cursive;
 }
 a:visited{
   color:white;
@@ -321,20 +332,22 @@ a:hover{
 }
 
 #projectTitle{
-  border-bottom: 2px solid #ffa62b;
-  margin-left: 450px;
-  margin-right: 450px;
-  padding-top: 20px;
+  padding-top: 50px;
   color: white;
   font-size: 40px;
   text-shadow: 1px 1px #3c6e71;
+  font-family: 'Bungee Shade', cursive;
+  transform: skewY(11deg);
+
 }
 
 #youtubeDesc{
+font-family: 'Bungee Inline', cursive;
 text-shadow: 1px 1px black;
 color:white;
 font-size: 20px;
 padding-bottom: 30px;
+transform: skewY(11deg);
 }
 
 #DGAA{
@@ -347,13 +360,14 @@ padding-bottom: 30px;
 
 .videoContainer{
   padding-top: 10px;
-  width:700px;
+  width:600px;
+  height:400px;
   margin: auto;
-
+  transform: skewY(11deg);
 }
 
 .Footer{
-  padding-top: 10px;
+  padding-top: 150px;
   color:  white;
   text-align: right;
   margin-right: 10px;
@@ -361,9 +375,9 @@ padding-bottom: 30px;
 }
 
 .currentProject{
-  background-color: #ffa62b;
-  margin-right: 100px;
-  margin-left: 100px;
+  background-color: #118ab2;
+  transform: skewY(-11deg);
+  height: 650px;
   margin-top: 100px;
   margin-bottom: 50px;
   border-radius: 10px;
@@ -371,19 +385,23 @@ padding-bottom: 30px;
 }
 
 .currentProjectTitle{
+  font-family: 'Bungee Shade', cursive;
   font-size: 40px;
-  border-bottom: 2px solid #3c6e71;
+  transform: skewY(11deg);
+  padding-top: 100px;
   margin-left: 200px;
   margin-right: 200px;
   padding-bottom: 5px;
-  color:#3c6e71;
-  text-shadow: 1px 1px white;
+  color:white;
+  text-shadow: 1px 1px black;
 }
 
 .currentProjectDesc{
+  font-family: 'Bungee Inline', cursive;
+  transform: skewY(11deg);
   color: white;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
   margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 30px;
@@ -405,10 +423,8 @@ padding-bottom: 30px;
 }
 
 .deployedAppsTitle{
-  border-bottom: 2px solid #ffa62b;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-top: 20px;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 150px;
   color: white;
   font-size: 40px;
   text-shadow: 1px 1px #3c6e71;
@@ -427,14 +443,27 @@ padding-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.myProjects{
+  background-color: #ffd166;
+  height:650px;
+  transform: skewY(-11deg);
+}
+
 .deployedAppsDesc{
   color:white;
   text-shadow: 2px 2px black;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-size: 20px;
+  font-family: 'Bungee Inline', cursive;
+
+}
+.deployedAppDesc{
+  font-family: 'Bungee Inline', cursive;
+
 }
 
 #wtwTitle{
+  font-family: 'Bungee Outline', cursive;
   padding-top: 20px;
   font-size: 35px;
   color: #fff;
@@ -444,6 +473,7 @@ padding-bottom: 30px;
 }
 
 #if2Title{
+  font-family: 'Bungee Outline', cursive;
   padding-top: 20px;
   color: #fff;
   font-size: 35px;
@@ -453,6 +483,7 @@ padding-bottom: 30px;
 }
 
 #ccTitle{
+  font-family: 'Bungee Outline', cursive;
   padding-top: 20px;
   color: #fff;
   font-size: 35px;
@@ -547,7 +578,7 @@ padding-bottom: 30px;
   height:300px;
   margin:auto;
   max-height: 300px;
-  margin-top: 50px;
+  margin-top: -80px;
   margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -555,6 +586,10 @@ padding-bottom: 30px;
 .carousel .slide{
   max-height: 300px;
   
+}
+.carouselContainer{
+  display: block;
+  height:900px;
 }
 
 .interestsCarousel{
@@ -587,13 +622,8 @@ padding-bottom: 30px;
   }
   
   .aboutMe{
-    padding-top: 20px;
-    font-weight: bold;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    height:550px;
-    background-color: #ffa62b;
+    height:800px;
     margin: auto;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -609,30 +639,24 @@ padding-bottom: 30px;
   }
   
   #aboutMeTitle{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: -100px;
     font-size: 30px;
+
   }
   
   .interests{
     width: 100%;
-    background-color: #ffa62b;
     margin: auto;
     margin-bottom: 50px;
     border-radius: 10px;
-    font-weight: bold;
   }
   
   #interestTitle{
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   #educationTitle{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .interestList{ 
@@ -648,24 +672,18 @@ padding-bottom: 30px;
 
   #projectTitle{
     font-size: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 10px;
+    padding-top: 70px;
     text-shadow: 2px 2px black;
   }
   
   .contactMe{
     color:white;
-    margin-right: 10px;
-    margin-left: 10px;
     padding-bottom: 20px;;
   }
   
   #contactMeTitle{
     font-size: 30px;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
     text-shadow: 2px 2px black;
   }
   
@@ -676,28 +694,20 @@ padding-bottom: 30px;
 #youtubeDesc{
   text-shadow: 1px 1px black;
   color:white;
-  padding-bottom: 10px;
-  font-size: 13px;
-  text-align: center;
+  margin-top: -40px;
+  font-size: 18px;
   }
   
-  #DGAA{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  #Market365{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
 
   .videoContainer{
     padding-top: 10px;
     padding-bottom: 10px;
-    width:100%;
+    width:350px;
   }
   
   .currentProjectTitle{
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 5px;
@@ -713,12 +723,12 @@ padding-bottom: 30px;
   }
 
   .currentProject{
-    background-color: #ffa62b;
     margin-right: 10px;
     margin-left: 10px;
-    margin-top: -130px;
+    margin-top: -100px;
     margin-bottom: 50px;
     border-radius: 10px;
+    height:1050px;
     box-shadow: 10px 10px 10px 10px rgb,a(0, 0, 0, 0.4) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -735,10 +745,11 @@ padding-bottom: 30px;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-shadow: 2px 2px black;
   }
   .deployedAppsContainer{
+    padding-top: 100px;
     max-width: 350px;
 
   }

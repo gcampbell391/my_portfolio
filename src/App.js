@@ -26,11 +26,13 @@ class App extends React.Component {
         </div>
         <CurrentProject />
         <div className="infoBody">
-          <ImageCarousel />
           <AboutMe />
         </div>
         <div className="infoBody">
           <Interests />
+        </div>
+        <div className="carouselContainer">
+          <ImageCarousel />
           <InterestsCarousel />
         </div>
         <MyProjects />
