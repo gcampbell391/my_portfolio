@@ -55,6 +55,15 @@ class MyProjects extends React.Component {
                         <div>
                             <YouTube videoId="O6A79G8_dUQ" opts={opts} onReady={this._onReady} id="Market365" />
                         </div>
+                        <div>
+                            <YouTube videoId="7OaCYkA4ob8" opts={opts} onReady={this._onReady} id="IDfighters" />
+                        </div>
+                        <div>
+                            <YouTube videoId="2SkAUMQx2SI" opts={opts} onReady={this._onReady} id="TradeCity" />
+                        </div>
+                        <div>
+                            <YouTube videoId="Wukv_H6P6Pk" opts={opts} onReady={this._onReady} id="CLI" />
+                        </div>
                     </Carousel>
                 </div>
                 <p id="youtubeDesc">Check out more of my videos by clicking the YouTube icon in the nav bar!</p>

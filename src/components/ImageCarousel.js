@@ -28,7 +28,6 @@ const ImageCarousel = () => {
                 autoPlaySpeed={6000}
                 transitionDuration={500}
                 infiniteLoop={true}
-                infinite={true}
                 keyBoardControl={true}
                 showArrows={false}
                 showStatus={false}

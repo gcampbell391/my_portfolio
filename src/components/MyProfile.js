@@ -9,6 +9,7 @@ const MyProfile = () => {
             {/* <img src={require("../images/mySelfie.JPG")} id="selfieImg" alt="Selfie" /> */}
             {/* <p id="nameProfileHeader">Gene Campbell III</p> */}
             <p id="bioProfileHeader">
+
                 <Typist startDelay={2000} cursor={{
                     show: true,
                     blink: true,
