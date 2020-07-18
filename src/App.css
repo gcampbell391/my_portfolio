@@ -375,7 +375,9 @@ transform: skewY(11deg);
   margin-right: 10px;
   text-shadow: 2px 2px black;
 }
-
+.scrollHelper{
+  transform: skewY(11deg);
+}
 .currentProject{
   background-color: #118ab2;
   transform: skewY(-11deg);
@@ -385,7 +387,9 @@ transform: skewY(11deg);
   border-radius: 10px;
   box-shadow: 10px 10px 10px 10px rgb,a(0, 0, 0, 0.4) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.rubberband{
+  transform: skewY(11deg);
+}
 .currentProjectTitle{
   font-family: 'Bungee Shade', cursive;
   font-size: 40px;

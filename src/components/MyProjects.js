@@ -2,6 +2,8 @@ import React from "react"
 import YouTube from 'react-youtube';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import Bounce from 'react-reveal/Bounce';
+
 
 class MyProjects extends React.Component {
 
@@ -37,36 +39,38 @@ class MyProjects extends React.Component {
         };
         return (
             <div className="myProjects">
-                <h1 id="projectTitle">Project Demos</h1>
-                <div className="videoContainer">
-                    <Carousel
-                        responsive={responsive}
-                        transitionDuration={500}
-                        infiniteLoop={true}
-                        infinite={true}
-                        keyBoardControl={true}
-                        showStatus={false}
-                        showThumbs={false}
-                        showIndicators={false}
-                    >
-                        <div>
-                            <YouTube videoId="IL4zIzxqjzQ" opts={opts} onReady={this._onReady} id="DGAA" />
-                        </div>
-                        <div>
-                            <YouTube videoId="O6A79G8_dUQ" opts={opts} onReady={this._onReady} id="Market365" />
-                        </div>
-                        <div>
-                            <YouTube videoId="7OaCYkA4ob8" opts={opts} onReady={this._onReady} id="IDfighters" />
-                        </div>
-                        <div>
-                            <YouTube videoId="2SkAUMQx2SI" opts={opts} onReady={this._onReady} id="TradeCity" />
-                        </div>
-                        <div>
-                            <YouTube videoId="Wukv_H6P6Pk" opts={opts} onReady={this._onReady} id="CLI" />
-                        </div>
-                    </Carousel>
-                </div>
-                <p id="youtubeDesc">Check out more of my videos by clicking the YouTube icon in the nav bar!</p>
+                <Bounce left cascade>
+                    <h1 id="projectTitle">Project Demos</h1>
+                    <div className="videoContainer">
+                        <Carousel
+                            responsive={responsive}
+                            transitionDuration={500}
+                            infiniteLoop={true}
+                            infinite={true}
+                            keyBoardControl={true}
+                            showStatus={false}
+                            showThumbs={false}
+                            showIndicators={false}
+                        >
+                            <div>
+                                <YouTube videoId="IL4zIzxqjzQ" opts={opts} onReady={this._onReady} id="DGAA" />
+                            </div>
+                            <div>
+                                <YouTube videoId="O6A79G8_dUQ" opts={opts} onReady={this._onReady} id="Market365" />
+                            </div>
+                            <div>
+                                <YouTube videoId="7OaCYkA4ob8" opts={opts} onReady={this._onReady} id="IDfighters" />
+                            </div>
+                            <div>
+                                <YouTube videoId="2SkAUMQx2SI" opts={opts} onReady={this._onReady} id="TradeCity" />
+                            </div>
+                            <div>
+                                <YouTube videoId="Wukv_H6P6Pk" opts={opts} onReady={this._onReady} id="CLI" />
+                            </div>
+                        </Carousel>
+                    </div>
+                    <p id="youtubeDesc">Check out more of my videos by clicking the YouTube icon in the nav bar!</p>
+                </Bounce>
             </div>
         )
     }
