@@ -745,4 +745,28 @@ transform: skewY(11deg);
     margin-left: 10px;
     margin-right: 10px;
   }
+
+
+#wtwTitle{
+  font-family: 'Bungee Outline', cursive;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #118ab2;
+
+}
+
+#if2Title{
+  font-family: 'Bungee Outline', cursive;
+  padding-top: 20px;
+  color: #ffd166;
+  font-size: 25px;
+
+}
+
+#ccTitle{
+  font-family: 'Bungee Outline', cursive;
+  padding-top: 20px;
+  color: #ef476f;
+  font-size: 30px;
+}
 }

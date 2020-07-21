@@ -1,6 +1,6 @@
 import React from "react"
 import Bounce from 'react-reveal/Bounce';
-import RubberBand from 'react-reveal/RubberBand';
+// import RubberBand from 'react-reveal/RubberBand';
 
 
 const Interests = () => {
