@@ -59,7 +59,7 @@ const DeployedApps = () => {
                 </Carousel>
             </Flash>
             <Zoom>
-                <p className="deployedAppsDesc">Apps were deployed on Herkou, so they make take a minute to boot up if they're asleep.</p>
+                <p className="deployedAppsDesc">My applications were deployed on Herkou, so they may take a minute to boot up if they're asleep.</p>
             </Zoom>
         </div>
 
