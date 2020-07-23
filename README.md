@@ -1,5 +1,5 @@
 # A portfolio site about Gene Campbell III
-The web app was built with React js functional components. I used a couple npm libaries to 
+My portfolio app was built with React js. I used a couple npm libaries to 
 implement some cool features. 
 
 - react-responsive-carousel to display image and app carousels
