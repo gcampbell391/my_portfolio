@@ -4,6 +4,7 @@ import Bounce from 'react-reveal/Bounce';
 
 
 
+
 const CurrentProject = () => {
     return (
         <div className="currentProject">
