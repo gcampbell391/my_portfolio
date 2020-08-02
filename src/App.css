@@ -2,6 +2,7 @@
 .homeScreen{
   background-color: black;
   text-align: center;
+
 }
 
 .myProfileBackground{
@@ -122,20 +123,40 @@ color: white
   }
 
 
-#githubIcon:hover{
+#githubIcon{
   color: #06d6a0;
+  opacity: .8;
+}
+
+#githubIcon:hover{
+  opacity: 1;
+}
+
+#mediumIcon{
+  color: #ef476f;
+  opacity: .8;
 }
 
 #mediumIcon:hover{
-  color: #ef476f;
+  opacity: 1;
+}
+
+#linkedInIcon{
+  color:#118ab2;
+  opacity: .8;
 }
 
 #linkedInIcon:hover{
-  color:#118ab2;
+  opacity: 1;
+}
+
+#youTubeIcon{
+  color:#ffd166;
+  opacity: .8;
 }
 
 #youTubeIcon:hover{
-  color:#ffd166;
+  opacity: 1;
 }
 
 span{
@@ -169,29 +190,15 @@ span{
 }
 
 
-.aboutMe{
-  padding-top: 10px;
-  width: 100%;
-  height:650px;
-  max-height: 900px;
-  color:white;
-  font-weight: bold;
-  margin-top: 50px;
-  border-radius: 10px;
-}
-
 .carouselContainer{
-  height: 720px;
+  height: 300px;
   display: flex;
-  padding-top: 200px;
+  margin-bottom: 100px;
 }
 
 .imageCarousel{
   width: 50%; 
   height:cover;
-  margin-right: 50px;
-  margin-left: 50px;
-  border-radius: 10px;
 }
 .carousel .slide{
   height: 350px;
@@ -200,15 +207,10 @@ span{
 .interestsCarousel{
   width: 50%; 
   height:100%;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  border-radius: 10px;
 }
 
 #selfieImg{
   width: 100%;
-  border-radius: 10px;
   height: 100%;
   max-height: 350px;
   object-fit: cover;
@@ -216,25 +218,25 @@ span{
 
 .officeImgs{
   height:500px;
-  border-radius: 10px;
+}
+
+.aboutMe{
+  width: 100%;
+  height:100%;
+  padding-bottom: 30px;
+  color:#118ab2;
+  font-weight: bold;
 }
 
 .aboutMeParagraph{
-  text-shadow: 1px 1px black;
-  font-size: 17px;
+  text-align: center;
+  font-size: 20px;
   padding-bottom: 10px;
-  margin-top: -20px;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Shade', cursive;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-#aboutMeTitle{
-  color: white;
-  padding-top: 150px;
-  font-size: 40px;
-  font-family: 'Bungee Shade', cursive;
-}
 
 .interests{
   transform: skewY(-11deg);
@@ -392,9 +394,12 @@ transform: skewY(11deg);
 }
 
 .Footer{
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 100%;
   color:  white;
-  text-align: right;
+  background-color: black;
+  text-align: center;
   margin-right: 10px;
   text-shadow: 2px 2px black;
 }
@@ -427,7 +432,6 @@ transform: skewY(11deg);
 
 .currentProjectDesc{
   font-family: 'Bungee Inline', cursive;
-  transform: skewY(11deg);
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -470,11 +474,9 @@ transform: skewY(11deg);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.myProjects{
-  background-color: #ffd166;
-  height:650px;
-  transform: skewY(-11deg);
-}
+
+
+
 
 .deployedAppsDesc{
   color:white;
@@ -512,14 +514,111 @@ transform: skewY(11deg);
   font-size: 35px;
 }
 
-
-
 .deployedAppDesc{
   color:white;
   font-size: 20px;
   padding-bottom: 60px;
 }
 
+#projectsHeaderImageContainer{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding-top: 30px;
+}
+
+#projectsHeaderImage{
+  display: block;
+  margin: auto;
+}
+
+.currentNumbersContainer{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.currentNumber{
+  margin: auto;
+  text-align: center;
+  width: 25%;
+}
+
+.currentNumberTitle{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+}
+
+.countingNumber{
+  font-size: 50px;
+  color:#118ab2;
+  text-shadow: none;
+}
+
+.currentNumberIcon{
+  color: black
+}
+
+#githubSquareIcon{
+  color: #9b5de5
+}
+
+#githubAlternateIcon{
+  color: #f15bb5
+}
+
+#folderIcon{
+  color: #fee440
+}
+
+#coffeeIcon{
+  color: #b2967d
+}
+
+
+.screenTitle{
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 70px;
+  color:#06d6a0;
+  padding-bottom: 20px;
+}
+
+.socialMediaNavBarContainer{
+  height: 165px;
+}
+
+.projectContainer{
+  text-align: center;
+}
+
+.projectContainerFlexbox{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: auto
+}
+
+.projectImageSS{
+  width:500px;
+  height: 300px;
+  display: block;
+  margin: auto;
+
+}
+
+.projectImageSSContainer{
+  width: 50%; 
+
+}
+
+.projectDescriptionContainer{
+  width: 50%;
+  text-align: center;
+}
 
 
 
@@ -619,9 +718,10 @@ transform: skewY(11deg);
   }
   
   .aboutMe{
-    height:800px;
+    height:300px;
     margin-bottom: 50px;
     border-radius: 10px;
+    background-color: black;
 
   }
   
@@ -669,6 +769,8 @@ transform: skewY(11deg);
     padding-top: 70px;
     text-shadow: 2px 2px black;
   }
+
+
   
   .contactMe{
     color:white;

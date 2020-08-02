@@ -5,7 +5,7 @@ const Blogs = () => {
     return (
         <div>
             <Header />
-            <h1>Blogs</h1>
+            <h1 className='screenTitle'>Blogs</h1>
         </div>
     )
 }

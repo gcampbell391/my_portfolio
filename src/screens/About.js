@@ -1,11 +1,23 @@
 import React from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+import AboutMe from '../components/AboutMe'
+import ImageCarousel from '../components/ImageCarousel'
+import InterestsCarousel from '../components/InterestsCarousel'
+
+
 
 const About = () => {
     return (
         <div>
             <Header />
-            <h1>About</h1>
+            <div className="carouselContainer">
+                <ImageCarousel />
+                <InterestsCarousel />
+            </div>
+            <AboutMe />
+            <Footer />
+
         </div>
     )
 }
