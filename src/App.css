@@ -555,7 +555,7 @@ transform: skewY(11deg);
 }
 
 .projectImageSS{
-  width:500px;
+  width: 90%;
   height: 300px;
   display: block;
   margin: auto;
@@ -596,7 +596,7 @@ transform: skewY(11deg);
 }
 
 #blogHeaderImage{
-  width: 600px;
+  width: 60%;
   height: 300px;
   display: block;
   margin: auto;
