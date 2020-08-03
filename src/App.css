@@ -3,7 +3,6 @@
   background-color: black;
   text-align: center;
   height:900px;
-
 }
 
 .myProfileBackground{
@@ -334,7 +333,7 @@ transform: skewY(11deg);
 
 .Footer{
   padding-top: 30px;
-  padding-bottom: 0px;
+  padding-bottom: 300px;
   width: 100%;
   color:  white;
   background-color: black;
