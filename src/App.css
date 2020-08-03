@@ -232,7 +232,7 @@ span{
   text-align: center;
   font-size: 20px;
   padding-bottom: 10px;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee Inline', cursive;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -593,6 +593,8 @@ transform: skewY(11deg);
 
 .projectContainer{
   text-align: center;
+  font-size: 15px;
+  font-family: 'Bungee Inline', cursive;
 }
 
 .projectContainerFlexbox{
@@ -600,6 +602,18 @@ transform: skewY(11deg);
   width: 80%;
   justify-content: center;
   margin: auto
+}
+
+.projectContainerTitle{
+ padding-top: 20px;
+ padding-bottom: 20px;
+ font-family: 'Bungee Shade', cursive;
+ font-size: 35px;
+}
+
+.projectContainerHeader{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 25px;
 }
 
 .projectImageSS{
@@ -620,8 +634,23 @@ transform: skewY(11deg);
   text-align: center;
 }
 
+.accessContainer{
+  text-align: left;
+  margin: auto;
+  width:120px;
+}
 
 
+.technologiesList{
+  margin-bottom: 20px;
+}
+
+.technologiesList li{
+  display: inline;
+  position: relative;
+  margin: 15px;
+  font-size: 15px;
+}
 
 @media only screen and (max-width: 750px) {
   .header{
