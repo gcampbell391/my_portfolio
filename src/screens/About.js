@@ -9,7 +9,7 @@ import InterestsCarousel from '../components/InterestsCarousel'
 
 const About = () => {
     return (
-        <div>
+        <div className='aboutScreen'>
             <Header />
             <div className="carouselContainer">
                 <ImageCarousel />
