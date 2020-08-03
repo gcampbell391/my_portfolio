@@ -333,7 +333,7 @@ transform: skewY(11deg);
 
 .Footer{
   padding-top: 30px;
-  padding-bottom: 300px;
+  padding-bottom: 100px;
   width: 100%;
   color:  white;
   background-color: black;
@@ -662,27 +662,47 @@ opacity: .8;
     padding-top: 10px;
     display: block;
     padding-bottom: 25px;
-    max-width: 400px;
   }
 
-  .nameHeader{
-    display: inline;
-    color: white;
-    font-size: 40px;
-    text-shadow: 2px 2px black;
-    justify-content: center;
+
+
+/* 
+.navBar{
+  font-size: 20px;
+  text-align: right;
+  width: 50%;
+  padding-bottom: 10px;
+  padding-top: 25px;
+  margin-right: 20px;
+} */
+
+/* 
+.navBarLink{
+  text-decoration: none;
+  display: inline;
+  color: white;
+  font-size: 23px;
+  margin: 10px;
+  padding-top: 10px;
+  
+  } */
+  .navBar{
+    text-align: center;
+    width:100%;
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+  .navBarList{
+    display:inline;
+  }
+
+  .navBarLink{
+    font-size: 17px;
+    margin:5px;
+    padding-bottom: 10px;
   }
   
-  .navBar{
-    width:inline;
-    display: flex;
-    font-size: 18px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color:white; 
-    text-shadow: 2px 2px black;
-  }
+
 
   #nameProfileHeader{
     color:white;
@@ -692,6 +712,15 @@ opacity: .8;
     margin-left: 1px;
     text-shadow: 2px 2px black;
   
+  }
+
+  .nameHeader{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    margin-left: -2px;
+    text-shadow: 2px 2px black;
   }
   
   #bioProfileHeader{
@@ -703,47 +732,54 @@ opacity: .8;
   }
 
 
-.imageCarousel{
-  width: 350px;
-  height:300px;
-  margin:auto;
-  max-height: 300px;
-  margin-top: -80px;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .carousel .slide{
   max-height: 300px;
   
 }
 .carouselContainer{
   display: block;
-  height:900px;
+  height:500px;
+}
+
+.imageCarousel{
+  width: 100%; 
+  height:cover;
 }
 
 .interestsCarousel{
-  width: 350px;
-  height:300px;
-  max-height: 300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 100%; 
+  height:100%;
+}
+
+.aboutMe{
+  width: 100%;
+  height:580px;
+  padding-bottom: 30px;
+  color:#118ab2;
+  font-weight: bold;
+}
+
+.aboutMeParagraph{
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-family: 'Bungee Inline', cursive;
+  padding-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 #selfieImg{
   width: 100%;
-  border-radius: 10px;
   height: 100%;
   max-height: 300px;
 }
 
 .officeImgs{
   height:300px;
-  border-radius: 10px;
 }
 
   .infoBody{
@@ -751,26 +787,7 @@ opacity: .8;
     height: 100%;
   }
   
-  .aboutMe{
-    height:300px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    background-color: black;
-
-  }
   
-  .aboutMeParagraph{
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 16px;
-    padding-bottom: 10px;
-  }
-  
-  #aboutMeTitle{
-    margin-top: -100px;
-    font-size: 30px;
-
-  }
   
   .interests{
     width: 100%;
@@ -822,14 +839,6 @@ opacity: .8;
     text-align: center;
 }
 
-#youtubeDesc{
-  text-shadow: 1px 1px black;
-  color:white;
-  margin-top: -40px;
-  font-size: 18px;
-  }
-  
-
   .videoContainer{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -845,89 +854,169 @@ opacity: .8;
 
   }
   
-  .currentProjectDesc{
-    font-weight: bold;
-    font-size: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 30px;
-  }
-
-  .currentProject{
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: -100px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    height:1050px;
-    box-shadow: 10px 10px 10px 10px rgb,a(0, 0, 0, 0.4) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  .deployedApps{
-    height:400px;
-    width: 350px;
-    display:block;
-    align-items: center;
-    background-color: white;
-    margin-bottom: 20px;
-  }
-  
-  .deployedAppsTitle{
-    font-size: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 50px;
-    text-shadow: 2px 2px black;
-  }
-  .deployedAppsContainer{
-    padding-top: 100px;
-    max-width: 350px;
-
-  }
-  .deployedApp{
-    height: 600px;
-    border: 1px solid lighten(black, 10);
-    transition: all 300ms ease-in-out;  
+  #contactLink{
     color:white;
-    text-shadow: 2px 2px black;
-  } 
-  .deployedAppImg{
-    height: 300px;
-    max-width: 350px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  .deployedAppsDesc{
-    color:white;
-    text-shadow: 2px 2px black;
-    padding-bottom: 20px;
-    font-size: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+    opacity: .9;
+    }
+    
+    #contactLink:hover{
+      opacity: 1;
+      }
+    
+    #contactContainerSpacer{
+      height: 50px;
+    }
+ 
+    
+    .all-blog-container{
+      height: 100%;
+      padding-bottom: 50px;
+    }
+    
+    .blog-flexbox-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+    }
+    
+    .blog-card{
+      box-shadow: 2px 2px 11px black;
+      margin: auto;
+      width: 80%;
+      height: 300px;
+      margin-bottom: 50px;
+    }
+    
+    .aboutScreen{
+      height: 400px;
+    }
+    
+    .blog-card-image{
+      width:100%;
+      height: 100%;
+    }
+
+    #projectsHeaderImageContainer{
+      display: flex;
+      align-items: center;
+      background-color: black;
+      padding-top: 30px;
+      width:100%;
+    }
+    
+    #projectsHeaderImage{
+      display: block;
+      margin: auto;
+      width:100%;
+    }
+    
+    .currentNumbersContainer{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 10px;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    .currentNumber{      
+      margin-right: 40px;
+      text-align: center;
+      width: 25%;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+    }
+    
+    .currentNumberTitle{
+      margin-bottom: 30px;
+      font-size: 15px;
+      font-family: 'Bangers', cursive;
+    }
+    
+    .countingNumber{
+      font-size: 20px;
+      color:#118ab2;
+      text-shadow: none;
+    }
+    
+    .currentNumberIcon{
+      color: black
+    }
 
 
-#wtwTitle{
-  font-family: 'Bungee Outline', cursive;
-  padding-top: 20px;
-  font-size: 30px;
-  color: #118ab2;
 
+
+
+
+
+.projectContainer{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Bungee Inline', cursive;
 }
 
-#if2Title{
-  font-family: 'Bungee Outline', cursive;
-  padding-top: 20px;
-  color: #ffd166;
+.projectContainerFlexbox{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  margin: auto
+}
+
+.projectContainerTitle{
+ padding-top: 20px;
+ padding-bottom: 20px;
+ font-family: 'Bungee Shade', cursive;
+ font-size: 20px;
+}
+
+.projectContainerHeader{
+  font-family: 'Bungee Inline', cursive;
   font-size: 25px;
+}
+
+.projectImageSS{
+  width: 100%;
+  height: 300px;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 11px black;
 
 }
 
-#ccTitle{
-  font-family: 'Bungee Outline', cursive;
-  padding-top: 20px;
-  color: #ef476f;
-  font-size: 30px;
+.projectImageSSContainer{
+  width: 100%; 
+
+}
+
+.projectDescriptionContainer{
+  width: 100%;
+  text-align: center;
+}
+
+.accessContainer{
+  text-align: left;
+  margin: auto;
+  width:120px;
+}
+
+
+.technologiesList{
+  margin-bottom: 20px;
+  margin-left: -50px;
+}
+
+.technologiesList li{
+  display: block;
+  position: relative;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.projectContainerDescription{
+  text-align: left;
 }
 }
