@@ -303,60 +303,9 @@ span{
   animation-iteration-count: infinite;
 }
 
-@keyframes right_to_left_and_rotate {
-  from {
-      margin-right: -100%;
-      transform: rotate(360deg);
-  }
-  to {
-      margin-right: 0;
-      transform: rotate(0deg)
-  }
-}
-@keyframes left_to_right {
-  from {
-      margin-left: -100%;
-  }
-  to {
-      margin-left: 0;
-  }
-}
-  @keyframes right_to_left {
-    from {
-        margin-right: -100%;
-    }
-    to {
-        margin-right: 0;
-    }
-}
 
-@keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
+
 
 #projectTitle{
   padding-top: 50px;
@@ -377,13 +326,7 @@ padding-bottom: 30px;
 transform: skewY(11deg);
 }
 
-#DGAA{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-#Market365{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .videoContainer{
   padding-top: 10px;
@@ -534,7 +477,7 @@ transform: skewY(11deg);
 
 .currentNumbersContainer{
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -621,6 +564,7 @@ transform: skewY(11deg);
   height: 300px;
   display: block;
   margin: auto;
+  box-shadow: 2px 2px 11px black;
 
 }
 
@@ -650,6 +594,10 @@ transform: skewY(11deg);
   position: relative;
   margin: 15px;
   font-size: 15px;
+}
+
+.projectContainerDescription{
+  text-align: left;
 }
 
 @media only screen and (max-width: 750px) {
