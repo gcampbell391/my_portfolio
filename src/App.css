@@ -272,6 +272,10 @@ color: white
 
 }
 
+.disabledIcon{
+  pointer-events: none;
+}
+
 .contactMe{
   color:white;
   padding-bottom: 20px;;
@@ -490,7 +494,8 @@ transform: skewY(11deg);
 }
 
 .currentNumberIcon{
-  color: black
+  color: black;
+  pointer-events: none
 }
 
 #githubSquareIcon{
