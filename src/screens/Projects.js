@@ -10,6 +10,9 @@ import DGAAProject from '../components/DGAAProject'
 import Market365Project from '../components/Market365Project'
 import TradeCityProject from '../components/TradeCityProject'
 import OneMoreRepProject from '../components/OneMoreRepProject'
+import Fade from 'react-reveal/Fade';
+import Flash from 'react-reveal/Flash';
+
 
 const Projects = () => {
     return (
@@ -18,23 +21,41 @@ const Projects = () => {
             <div id='projectsHeaderImageContainer'>
                 <img src={require('../images/projectsHeader.svg')} id='projectsHeaderImage' alt='projects' />
             </div>
-            <CurretNumbers />
+            <Flash>
+                <CurretNumbers />
+            </Flash>
             <hr width='80%' />
-            <InterdimensionalFightersProject />
+            <Fade bottom>
+                <InterdimensionalFightersProject />
+            </Fade>
             <hr width='80%' />
-            <DGAAProject />
+            <Fade bottom>
+                <DGAAProject />
+            </Fade>
             <hr width='80%' />
-            <Market365Project />
+            <Fade bottom>
+                <Market365Project />
+            </Fade>
             <hr width='80%' />
-            <WhatsTheWeatherProject />
+            <Fade bottom>
+                <WhatsTheWeatherProject />
+            </Fade>
             <hr width='80%' />
-            <ChitChatterProject />
+            <Fade bottom>
+                <ChitChatterProject />
+            </Fade>
             <hr width='80%' />
-            <GuessTheNumberProject />
+            <Fade bottom>
+                <GuessTheNumberProject />
+            </Fade>
             <hr width='80%' />
-            <TradeCityProject />
+            <Fade bottom>
+                <TradeCityProject />
+            </Fade>
             <hr width='80%' />
-            <OneMoreRepProject />
+            <Fade bottom>
+                <OneMoreRepProject />
+            </Fade>
             <Footer />
         </div>
     )

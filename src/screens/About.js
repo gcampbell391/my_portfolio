@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import AboutMe from '../components/AboutMe'
 import ImageCarousel from '../components/ImageCarousel'
 import InterestsCarousel from '../components/InterestsCarousel'
+import Interests from '../components/Interests'
 
 
 
@@ -16,6 +17,7 @@ const About = () => {
                 <InterestsCarousel />
             </div>
             <AboutMe />
+            <Interests />
             <Footer />
 
         </div>

@@ -6,6 +6,7 @@ import SocialMediaNavBar from '../components/SocialMediaNavBar'
 
 
 
+
 const Home = () => {
     return (
         <div className="homeScreen">
