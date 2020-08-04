@@ -580,6 +580,7 @@ transform: skewY(11deg);
 
 .technologiesList{
   margin-bottom: 20px;
+  pointer-events: none;
 }
 
 .technologiesList li{
