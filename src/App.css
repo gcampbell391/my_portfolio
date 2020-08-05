@@ -329,7 +329,6 @@ transform: skewY(11deg);
 
 .Footer{
   padding-top: 30px;
-  padding-bottom: 100px;
   width: 100%;
   color:  white;
   background-color: black;
@@ -472,8 +471,11 @@ transform: skewY(11deg);
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-}
 
+}
+.projectScreen{
+  background-color: white;
+}
 .currentNumber{
   margin: auto;
   text-align: center;
@@ -603,8 +605,13 @@ transform: skewY(11deg);
   margin-top: 50px;
 }
 
+#blogHeaderImageContainer{
+  background-color: white;
+}
+
 .all-blog-container{
   height: 100%;
+  background-color: white;
   padding-bottom: 50px;
 }
 

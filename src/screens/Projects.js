@@ -21,41 +21,43 @@ const Projects = () => {
             <div id='projectsHeaderImageContainer'>
                 <img src={require('../images/projectsHeader.svg')} id='projectsHeaderImage' alt='projects' />
             </div>
-            <Flash>
-                <CurretNumbers />
-            </Flash>
-            <hr width='80%' />
-            <Fade bottom>
-                <InterdimensionalFightersProject />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <DGAAProject />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <Market365Project />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <WhatsTheWeatherProject />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <ChitChatterProject />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <GuessTheNumberProject />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <TradeCityProject />
-            </Fade>
-            <hr width='80%' />
-            <Fade bottom>
-                <OneMoreRepProject />
-            </Fade>
+            <div className='projectScreen'>
+                <Flash>
+                    <CurretNumbers />
+                </Flash>
+                <hr width='80%' />
+                <Fade bottom>
+                    <InterdimensionalFightersProject />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <DGAAProject />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <Market365Project />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <WhatsTheWeatherProject />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <ChitChatterProject />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <GuessTheNumberProject />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <TradeCityProject />
+                </Fade>
+                <hr width='80%' />
+                <Fade bottom>
+                    <OneMoreRepProject />
+                </Fade>
+            </div>
             <Footer />
         </div>
     )
