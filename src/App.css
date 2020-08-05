@@ -469,8 +469,8 @@ transform: skewY(11deg);
   display: flex;
   width: 80%;
   margin: auto;
-  margin-top: 50px;
   margin-bottom: 50px;
+  padding-top: 50px;
 
 }
 .projectScreen{
