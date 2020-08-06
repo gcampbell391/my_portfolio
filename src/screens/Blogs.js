@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Roll from 'react-reveal/Roll';
 import Zoom from 'react-reveal/Zoom';
 
+
 const Blogs = () => {
     return (
         <div>
@@ -52,6 +53,11 @@ const Blogs = () => {
                             <img src={require('../images/blog1.png')} className='blog-card-image' alt='blog-card-image1' />
                         </a>
                     </Roll>
+                    <Zoom bottom>
+                        <a href='https://medium.com/@gcampbell391/bring-your-react-app-to-life-with-scroll-animations-280f6293dd29' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog9.png')} className='blog-card-image' alt='blog-card-image4' />
+                        </a>
+                    </Zoom>
                     <Roll right>
                         <a href='https://medium.com/@gcampbell391/cheat-sheet-for-git-commands-a01f6e99eba0' target='_blank' rel="noopener noreferrer" className='blog-card'>
                             <img src={require('../images/blog2.png')} className='blog-card-image' alt='blog-card-image2' />

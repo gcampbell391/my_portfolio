@@ -164,7 +164,6 @@ color: white
 }
 
 
-
 #nameProfileHeader{
   color:white;
   font-size: 40px;
@@ -285,17 +284,13 @@ color: white
 }
 
 #contactMeTitle{
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 50px;
-  font-size: 70px;
+  font-size: 50px;
   text-shadow: 2px 2px black;
-  color: #ffa62b;
+  color:white;
   font-family: 'Bungee Shade', cursive;
 }
-
-
-
-
 
 
 #projectTitle{
@@ -659,8 +654,24 @@ opacity: .8;
   opacity: 1;
   }
 
-#contactContainerSpacer{
-  height: 100px;
+
+
+.contact-form-card{
+  width: 300px;
+  padding: 15px;
+  margin:auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.contact-form-container{
+  background-image: url(./images/contactHeader.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height:500px;
+  margin:auto;
+  display:block;
+  padding-top: 100px;
 }
 
 

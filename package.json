@@ -6,11 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "emailjs-com": "^2.6.3",
     "react": "^16.13.1",
     "react-awesome-reveal": "^2.4.2",
     "react-blink-text": "^1.0.5",
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
+    "react-embed": "^3.3.2",
     "react-icons": "^3.10.0",
     "react-multi-carousel": "^2.5.5",
     "react-responsive-carousel": "^3.2.9",
@@ -19,7 +21,9 @@
     "react-scripts": "3.4.1",
     "react-typist": "^2.0.5",
     "react-youtube": "^7.11.2",
-    "semantic-ui-react": "^0.88.2"
+    "semantic-ui-react": "^0.88.2",
+    "sweetalert2": "^9.17.1",
+    "sweetalert2-react": "^0.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
