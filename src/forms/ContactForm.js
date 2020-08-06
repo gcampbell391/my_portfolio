@@ -13,15 +13,20 @@ const ContactForm = () => {
         emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAILJS_USER_ID)
             .then((result) => {
                 console.log(result.text);
+                swal.fire(
+                    'Message Sent',
+                    'Gene will get back to you as soon as he can!',
+                    'success'
+                )
             }, (error) => {
                 console.log(error.text);
+                swal.fire(
+                    'Message Error',
+                    error.text,
+                    'error'
+                )
             });
         e.target.reset()
-        swal.fire(
-            'Message Sent',
-            'Gene will get back to you as soon as he can!',
-            'success'
-        )
     }
 
 
