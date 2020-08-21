@@ -15,8 +15,8 @@ const Blogs = () => {
             <div className='all-blog-container'>
                 <div className='blog-flexbox-container'>
                     <Roll left>
-                        <a href='https://medium.com/@gcampbell391/react-carousels-around-we-go-8f615fc7730b' target='_blank' rel="noopener noreferrer" className='blog-card'>
-                            <img src={require('../images/blog6.png')} alt='blog-card-image6' className='blog-card-image' />
+                        <a href='https://medium.com/@gcampbell391/a-tsparticle-article-9cd8a7ca263d' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog11.png')} alt='blog-card-image6' className='blog-card-image' />
                         </a>
                     </Roll>
                     <Zoom bottom>
@@ -25,8 +25,8 @@ const Blogs = () => {
                         </a>
                     </Zoom>
                     <Roll right>
-                        <a href='https://medium.com/@gcampbell391/intro-to-basic-react-hooks-usestate-and-useeffect-1fa3fdb5d9c' target='_blank' rel="noopener noreferrer" className='blog-card'>
-                            <img src={require('../images/blog8.png')} className='blog-card-image' alt='blog-card-image8' />
+                        <a href='https://medium.com/@gcampbell391/get-connected-with-others-by-adding-a-contact-form-to-your-react-site-583b8b9e372f' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog10.png')} className='blog-card-image' alt='blog-card-image8' />
                         </a>
                     </Roll>
                 </div>
@@ -61,6 +61,18 @@ const Blogs = () => {
                     <Roll right>
                         <a href='https://medium.com/@gcampbell391/cheat-sheet-for-git-commands-a01f6e99eba0' target='_blank' rel="noopener noreferrer" className='blog-card'>
                             <img src={require('../images/blog2.png')} className='blog-card-image' alt='blog-card-image2' />
+                        </a>
+                    </Roll>
+                </div>
+                <div className='blog-flexbox-container'>
+                    <Roll left>
+                        <a href='https://medium.com/@gcampbell391/react-carousels-around-we-go-8f615fc7730b' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog6.png')} alt='blog-card-image6' className='blog-card-image' />
+                        </a>
+                    </Roll>
+                    <Roll right>
+                        <a href='https://medium.com/@gcampbell391/intro-to-basic-react-hooks-usestate-and-useeffect-1fa3fdb5d9c' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog8.png')} className='blog-card-image' alt='blog-card-image8' />
                         </a>
                     </Roll>
                 </div>

@@ -9,7 +9,8 @@ const ContactForm = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAILJS_USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            e.target, process.env.REACT_APP_EMAILJS_USER_ID)
             .then((result) => {
                 console.log(result.text);
                 swal.fire(
@@ -29,7 +30,6 @@ const ContactForm = () => {
     }
 
 
-    console.log()
     return (
         <div className='contact-form-card'>
             <Form onSubmit={handleFormSubmit}>
@@ -55,7 +55,6 @@ const ContactForm = () => {
                     iconPosition="left"
 
                 />
-
                 <Form.Field
                     id='form-textarea-control-opinion'
                     control={TextArea}
@@ -63,7 +62,6 @@ const ContactForm = () => {
                     name='user_message'
                     placeholder='Type your message here...'
                     required
-
                 />
                 <Button
                     label='Send Message'

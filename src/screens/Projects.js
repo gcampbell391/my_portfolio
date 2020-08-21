@@ -14,7 +14,9 @@ import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 
 
+
 const Projects = () => {
+
     return (
         <div>
             <Header />
