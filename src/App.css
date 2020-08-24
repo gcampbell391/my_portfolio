@@ -107,7 +107,7 @@ padding-top: 10px;
     background-color: #06d6a0;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
     }
 
     .navBarLink a:hover::before {
@@ -123,7 +123,7 @@ color: white
 .navBarLink a:hover{
   text-decoration: none;
   display: inline;
-  color: #06d6a0;
+  /* color: #06d6a0; */
   }
 
 
