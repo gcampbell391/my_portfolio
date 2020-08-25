@@ -7,6 +7,7 @@ implement some cool features.
 - react-typist to display the text typing and deleting 
 - react-blink-text to make full stack software engineer blink
 - react-youtube to easily display my youtube videos 
+- tsparticles to display beautiful flying particles 
 
 Thanks for checking my site out!
 
