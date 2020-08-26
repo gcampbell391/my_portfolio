@@ -12,6 +12,8 @@ import TradeCityProject from '../components/TradeCityProject'
 import OneMoreRepProject from '../components/OneMoreRepProject'
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
+import Flip from 'react-reveal/Flip';
+import ProjectChart from '../components/ProjectChart'
 
 
 
@@ -20,9 +22,11 @@ const Projects = () => {
     return (
         <div>
             <Header />
-            <div id='projectsHeaderImageContainer'>
-                <img src={require('../images/projectsHeader.svg')} id='projectsHeaderImage' alt='projects' />
-            </div>
+            <Flip left>
+                <div id='projectsHeaderImageContainer'>
+                    <ProjectChart />
+                </div>
+            </Flip>
             <div className='projectScreen'>
                 <Flash>
                     <CurretNumbers />

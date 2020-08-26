@@ -451,8 +451,8 @@ transform: skewY(11deg);
 #projectsHeaderImageContainer{
   display: flex;
   align-items: center;
-  background-color: black;
-  padding-top: 30px;
+  padding-top: 100px;
+  background-color: white;
 }
 
 #projectsHeaderImage{
@@ -479,13 +479,13 @@ transform: skewY(11deg);
 
 .currentNumberTitle{
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Bangers', cursive;
 }
 
 .countingNumber{
   font-size: 50px;
-  color:#118ab2;
+  color:#06d6a0;
   text-shadow: none;
   font-family: 'Bangers', cursive;
 }
@@ -694,6 +694,13 @@ z-index: 1;
   height: 500px
 }
 
+.project-chart-container{
+  margin: auto;
+}
+
+#users-chart{
+
+}
 
 @media only screen and (max-width: 750px) {
   .header{
@@ -929,11 +936,11 @@ z-index: 1;
     #projectsHeaderImageContainer{
       display: flex;
       align-items: center;
-      background-color: black;
-      padding-top: 30px;
-      width:100%;
+      padding-top: 50px;
+      padding-bottom:50px;
+      background-color: white;
     }
-    
+
     #projectsHeaderImage{
       display: block;
       margin: auto;
@@ -945,7 +952,6 @@ z-index: 1;
       flex-wrap: wrap;
       margin-left: 10px;
       width: 100%;
-      margin-top: 50px;
       margin-bottom: 50px;
     }
     
@@ -959,14 +965,14 @@ z-index: 1;
     }
     
     .currentNumberTitle{
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       font-size: 15px;
       font-family: 'Bangers', cursive;
     }
     
     .countingNumber{
       font-size: 20px;
-      color:#118ab2;
+      color:#06d6a0;
       text-shadow: none;
     }
     
