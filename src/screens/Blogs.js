@@ -20,8 +20,8 @@ const Blogs = () => {
                         </a>
                     </Roll>
                     <Zoom bottom>
-                        <a href='https://medium.com/@gcampbell391/get-ready-to-react-to-videos-for-react-768e1425d5d1' target='_blank' rel="noopener noreferrer" className='blog-card'>
-                            <img src={require('../images/blog7.png')} alt='blog-card-image7' className='blog-card-image' />
+                        <a href='https://medium.com/@gcampbell391/charting-into-new-react-territories-756b7d51466c' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog12.png')} alt='blog-card-image7' className='blog-card-image' />
                         </a>
                     </Zoom>
                     <Roll right>
@@ -70,6 +70,11 @@ const Blogs = () => {
                             <img src={require('../images/blog6.png')} alt='blog-card-image6' className='blog-card-image' />
                         </a>
                     </Roll>
+                    <Zoom bottom>
+                        <a href='https://medium.com/@gcampbell391/get-ready-to-react-to-videos-for-react-768e1425d5d1' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog7.png')} alt='blog-card-image7' className='blog-card-image' />
+                        </a>
+                    </Zoom>
                     <Roll right>
                         <a href='https://medium.com/@gcampbell391/intro-to-basic-react-hooks-usestate-and-useeffect-1fa3fdb5d9c' target='_blank' rel="noopener noreferrer" className='blog-card'>
                             <img src={require('../images/blog8.png')} className='blog-card-image' alt='blog-card-image8' />
