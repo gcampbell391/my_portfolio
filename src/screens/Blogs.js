@@ -81,6 +81,13 @@ const Blogs = () => {
                         </a>
                     </Roll>
                 </div>
+                <div className='blog-flexbox-container'>
+                    <Zoom bottom>
+                        <a href='https://medium.com/@gcampbell391/flex-on-them-with-flexbox-5de1f5cf28e2' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog13.png')} alt='blog-card-image7' className='blog-card-image' />
+                        </a>
+                    </Zoom>
+                </div>
             </div>
             <Footer />
         </div>
