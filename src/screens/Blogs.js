@@ -82,11 +82,16 @@ const Blogs = () => {
                     </Roll>
                 </div>
                 <div className='blog-flexbox-container'>
-                    <Zoom bottom>
+                    <Roll left>
                         <a href='https://medium.com/@gcampbell391/flex-on-them-with-flexbox-5de1f5cf28e2' target='_blank' rel="noopener noreferrer" className='blog-card'>
                             <img src={require('../images/blog13.png')} alt='blog-card-image7' className='blog-card-image' />
                         </a>
-                    </Zoom>
+                    </Roll>
+                    <Roll right>
+                        <a href='https://medium.com/@gcampbell391/8-valuable-shortcuts-for-visual-studio-mac-users-aa5206cf189c' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog14.png')} className='blog-card-image' alt='blog-card-image8' />
+                        </a>
+                    </Roll>
                 </div>
             </div>
             <Footer />
