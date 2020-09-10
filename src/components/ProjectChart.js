@@ -53,7 +53,7 @@ const ProjectChart = () => {
                     "Jun 2020": 79,
                     "Jul 2020": 72,
                     "Aug 2020": 68,
-                    "Sep 2020": 14,
+                    "Sep 2020": 24,
                 }}
             />
         </div>
