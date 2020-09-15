@@ -15,8 +15,8 @@ const Blogs = () => {
             <div className='all-blog-container'>
                 <div className='blog-flexbox-container'>
                     <Roll left>
-                        <a href='https://medium.com/@gcampbell391/a-tsparticle-article-9cd8a7ca263d' target='_blank' rel="noopener noreferrer" className='blog-card'>
-                            <img src={require('../images/blog11.png')} alt='blog-card-image6' className='blog-card-image' />
+                        <a href='https://medium.com/@gcampbell391/how-to-deploy-a-react-app-with-netlify-set-up-continuous-deployment-via-github-53859dcdaf40' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog15.png')} alt='blog-card-image6' className='blog-card-image' />
                         </a>
                     </Roll>
                     <Zoom bottom>
@@ -87,6 +87,11 @@ const Blogs = () => {
                             <img src={require('../images/blog13.png')} alt='blog-card-image7' className='blog-card-image' />
                         </a>
                     </Roll>
+                    <Zoom bottom>
+                        <a href='https://medium.com/@gcampbell391/a-tsparticle-article-9cd8a7ca263d' target='_blank' rel="noopener noreferrer" className='blog-card'>
+                            <img src={require('../images/blog11.png')} alt='blog-card-image7' className='blog-card-image' />
+                        </a>
+                    </Zoom>
                     <Roll right>
                         <a href='https://medium.com/@gcampbell391/8-valuable-shortcuts-for-visual-studio-mac-users-aa5206cf189c' target='_blank' rel="noopener noreferrer" className='blog-card'>
                             <img src={require('../images/blog14.png')} className='blog-card-image' alt='blog-card-image8' />
