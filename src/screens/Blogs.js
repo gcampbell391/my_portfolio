@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { Button } from 'semantic-ui-react'
+
 import BlogCard from '../components/BlogCard'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -32,6 +34,11 @@ const Blogs = () => {
                 {blogs.map(blog => {
                     return <BlogCard blog={blog} />
                 })}
+                <div className='blog-view-all-container'>
+                    <a href="https://medium.com/@gcampbell391" target="_blank" rel="noopener noreferrer">
+                        <Button color='blue'>View Medium Channel</Button>
+                    </a>
+                </div>
             </div>
             <Footer />
         </div>
