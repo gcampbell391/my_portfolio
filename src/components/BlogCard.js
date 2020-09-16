@@ -20,6 +20,9 @@ const BlogCard = (props) => {
     if (props.blog.title === "Get Connected With Others By Adding a Contact Form to Your React Site") {
         finalBlogDescription = "Are you looking for a resource for your visitors to get in touch with you on your website? You came to the right place. I’m here to explain how to add a pretty nifty contact form to your React website with a couple of easy steps. Before I do that though, let me show you some reasons..."
     }
+    if (props.blog.title === "How to deploy a React app with Netlify &amp; set up continuous deployment via Github") {
+        finalBlogDescription = "So far I have only used Heroku to deploy my web applications. Well, that changed today as I decided to branch out and try a different deployment service. I love Heroku, and it is so easy to use, but I hate how my applications go to sleep after 30 minut..."
+    }
     return (
         <div className='blog-card'>
             <div className='blog-card-left'>

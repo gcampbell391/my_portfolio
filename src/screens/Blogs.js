@@ -4,8 +4,8 @@ import { Button } from 'semantic-ui-react'
 import BlogCard from '../components/BlogCard'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-// import Roll from 'react-reveal/Roll';
-// import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
+
 
 
 
@@ -32,7 +32,8 @@ const Blogs = () => {
             </div>
             <div className='blogs-container'>
                 {blogs.map(blog => {
-                    return <BlogCard blog={blog} />
+
+                    return <Slide left> <BlogCard blog={blog} /></Slide>
                 })}
                 <div className='blog-view-all-container'>
                     <a href="https://medium.com/@gcampbell391" target="_blank" rel="noopener noreferrer">
