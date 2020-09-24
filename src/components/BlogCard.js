@@ -23,6 +23,9 @@ const BlogCard = (props) => {
     if (props.blog.title === "How to deploy a React app with Netlify &amp; set up continuous deployment via Github") {
         finalBlogDescription = "So far I have only used Heroku to deploy my web applications. Well, that changed today as I decided to branch out and try a different deployment service. I love Heroku, and it is so easy to use, but I hate how my applications go to sleep after 30 minut..."
     }
+    if (props.blog.title === "7 Tips for Solving Algorithms and Coding Challenges") {
+        finalBlogDescription = "Hello there, lately I’ve been working with a great deal of algorithms and coding challenges as I continue my journey for my first full time position as a software engineer! More than likely, you will have to complete a coding challenge or solve an algorithm to acquire a job in software developmen..."
+    }
     return (
         <div className='blog-card'>
             <div className='blog-card-left'>

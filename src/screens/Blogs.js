@@ -1,29 +1,36 @@
 import React, { useEffect, useState } from 'react'
 import { Button } from 'semantic-ui-react'
-
+import { Dimmer, Loader } from 'semantic-ui-react'
 import BlogCard from '../components/BlogCard'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Slide from 'react-reveal/Slide';
 
 
-
-
-
-
 const Blogs = () => {
 
     const [blogs, setBlogs] = useState([])
+    const [loadingBlogs, setLoadingBlogs] = useState(true)
 
     useEffect(() => {
         fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@gcampbell391")
             .then(resp => resp.json())
             .then(data => {
                 setBlogs(data.items)
-                console.log(data.items)
+                setLoadingBlogs(false)
             })
     }, [])
 
+
+    if (loadingBlogs) {
+        return (
+            <div >
+                <Dimmer active inverted>
+                    <Loader size='massive'>Loading Blogs</Loader>
+                </Dimmer>
+            </div>
+        )
+    }
     return (
         <div>
             <Header />
