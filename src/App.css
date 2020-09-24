@@ -725,6 +725,7 @@ z-index: 1;
 
 .project-chart-container{
   margin: auto;
+  width: 90%;
 }
 
 #users-chart{
