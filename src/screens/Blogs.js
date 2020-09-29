@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Button } from 'semantic-ui-react'
+import { Button, Dimmer } from 'semantic-ui-react'
 import { Loader } from 'semantic-ui-react'
 import BlogCard from '../components/BlogCard'
 import Header from '../components/Header'
@@ -22,6 +22,7 @@ const Blogs = () => {
     }, [])
 
 
+
     if (loadingBlogs) {
         return (
             <div>
@@ -30,7 +31,14 @@ const Blogs = () => {
                     <img src={require('../images/blogHeader.png')} id='blogHeaderImage' alt='blog header' />
                 </div>
                 <div className='blogs-container'>
-                    <Loader size='massive'>Loading Blogs</Loader>
+                    <Dimmer active>
+                        <Loader size='massive'>Loading Blogs</Loader>
+                    </Dimmer>
+                    <div className='blog-view-all-container'>
+                        <a href="https://medium.com/@gcampbell391" target="_blank" rel="noopener noreferrer">
+                            <Button color='blue'>View Medium Channel</Button>
+                        </a>
+                    </div>
                 </div>
                 <Footer />
             </div>
