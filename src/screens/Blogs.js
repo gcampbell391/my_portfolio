@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Button } from 'semantic-ui-react'
-import { Dimmer, Loader } from 'semantic-ui-react'
+import { Loader } from 'semantic-ui-react'
 import BlogCard from '../components/BlogCard'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -24,10 +24,15 @@ const Blogs = () => {
 
     if (loadingBlogs) {
         return (
-            <div >
-                <Dimmer active inverted>
+            <div>
+                <Header />
+                <div id='blogHeaderImageContainer'>
+                    <img src={require('../images/blogHeader.png')} id='blogHeaderImage' alt='blog header' />
+                </div>
+                <div className='blogs-container'>
                     <Loader size='massive'>Loading Blogs</Loader>
-                </Dimmer>
+                </div>
+                <Footer />
             </div>
         )
     }
