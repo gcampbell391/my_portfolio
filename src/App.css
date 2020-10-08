@@ -1,84 +1,3 @@
-#my-profile-section{
-  height:100px;
-}
-
-
-#my-profile-section-header{
-  color: #fff;
-  margin:0;
-  transform: translate(-50%,-50%);
-  transform: translateY(-50%);
-  width:100%;
-  text-align: center;
-  font-size: 9em;
-  letter-spacing: 0.2em;
-}
-video{
-  width: 100%;
-  display: flex;
-  object-fit: fill;
-}
-
-#video-container{
-margin-top: -650px;
-padding-top: -100px;
-}
-
-
-#my-profile-section-header span{
-  margin-top: 200px;
-  opacity: 0;
-  display: inline-block;
-  animation: animate 1s linear forwards;
-  overflow: auto 
-}
-@keyframes animate
-{
-  0%{
-    opacity: 0;
-    transform: rotateY(90deg);
-    filter: blur(10px);
-  }
-  100%{
-    opacity: 1;
-    transform: rotateY(0deg);
-    filter: blur(0);
-  }
-}
-#my-profile-section-header span:nth-child(1)
-{
-  animation-delay: .8s;
-}
-#my-profile-section-header span:nth-child(2)
-{
-  animation-delay: 1s;
-}
-#my-profile-section-header span:nth-child(3)
-{
-  animation-delay: 1.1s;
-}
-#my-profile-section-header span:nth-child(4)
-{
-  animation-delay: 1.5s;
-}
-#my-profile-section-header span:nth-child(5)
-{
-  animation-delay: 1.9s;
-}
-#my-profile-section-header span:nth-child(6)
-{
-  animation-delay: 2.2s;
-}
-#my-profile-section-header span:nth-child(7)
-{
-  animation-delay: 2.4s;
-}
-#my-profile-section-header span:nth-child(8)
-{
-  animation-delay: 2.8s;
-}
-
-/* Testing Above */
 body{
   color: black;
 }
@@ -148,7 +67,6 @@ body{
   margin-left: 20px;
   text-shadow: 2px 2px black;
   margin-bottom: -1px;
-  z-index: 3;
 }
 
 .navBar{
@@ -158,7 +76,6 @@ body{
   padding-bottom: 10px;
   padding-top: 25px;
   margin-right: 20px;
-  z-index: 3;
 }
 
 
@@ -272,12 +189,12 @@ color: white
 }
 
 
-/* .carouselContainer{
+.carouselContainer{
   height: 300px;
   display: flex;
   background-color: black;
 
-} */
+}
 
 .imageCarousel{
   width: 50%; 
@@ -938,9 +855,8 @@ z-index: 1;
 
 .aboutMe{
   width: 100%;
-  height:580px;
+  height:500px;
   padding-bottom: 30px;
-  color:#118ab2;
   font-weight: bold;
 }
 
@@ -973,7 +889,7 @@ z-index: 1;
 
   .interests{
     height: 800px;
-    padding-top: 150px;
+    padding-top: 50px;
     font-size: 15px;
   }
   
