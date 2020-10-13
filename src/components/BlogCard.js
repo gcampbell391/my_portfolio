@@ -29,6 +29,9 @@ const BlogCard = (props) => {
     if (props.blog.title === "How To Dynamically Render Your Medium Blog Posts On Your Portfolio Site") {
         finalBlogDescription = "If you haven’t read any of my previous articles or posts, I’m a software developer who is currently searching for his first full time position. In the meantime, I write weekly blogs and work on personal coding projects. The first project I created after I graduated from Flatiron was my Portfol..."
     }
+    if (props.blog.title === "How to Write Custom Routes in Rails") {
+        finalBlogDescription = "Most of my project’s back-ends are built with Ruby on Rails. I studied and worked with Ruby on Rails during my time at Flatiron. I love Ruby and find it easier to use and understand than Java and C# which I studied at Chattahoochee Technical College. If you have ever worked with Rails, yo..."
+    }
     return (
         <div className='blog-card'>
             <div className='blog-card-left'>
