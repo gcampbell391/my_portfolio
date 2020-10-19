@@ -32,6 +32,9 @@ const BlogCard = (props) => {
     if (props.blog.title === "How to Write Custom Routes in Rails") {
         finalBlogDescription = "Most of my project’s back-ends are built with Ruby on Rails. I studied and worked with Ruby on Rails during my time at Flatiron. I love Ruby and find it easier to use and understand than Java and C# which I studied at Chattahoochee Technical College. If you have ever worked with Rails, yo..."
     }
+    if (props.blog.title === "8 Incredible Extensions For Visual Studio Code") {
+        finalBlogDescription = "Visual Studio Code is a free code editor redefined and optimized for building and debugging modern web and cloud applications. It supports a wide variety of programming languages such as JavaScript, TypeScript, Node.js, C++, C#, Java, Python, and more! I’ve been a developer for almost..."
+    }
     return (
         <div className='blog-card'>
             <div className='blog-card-left'>
