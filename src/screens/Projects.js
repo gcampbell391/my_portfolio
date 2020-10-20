@@ -13,6 +13,7 @@ import OneMoreRepProject from '../components/OneMoreRepProject'
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 import ProjectChart from '../components/ProjectChart'
+import TipOutProject from '../components/TipOutProject'
 
 
 
@@ -28,6 +29,10 @@ const Projects = () => {
                 <Flash>
                     <CurretNumbers />
                 </Flash>
+                <hr width='80%' />
+                <Fade bottom>
+                    <TipOutProject />
+                </Fade>
                 <hr width='80%' />
                 <Fade bottom>
                     <InterdimensionalFightersProject />
