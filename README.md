@@ -2,6 +2,16 @@
 My portfolio app was built with React js. I used a couple npm libaries to 
 implement some cool features. 
 
+# My Portfolio
+My site consists of 5 pages:
+- Home
+- About
+- Projects 
+- Blogs 
+- Contact
+
+
+# Tools
 - react-responsive-carousel to display image and app carousels
 - react-reveal for scroll animations
 - react-typist to display the text typing and deleting 
