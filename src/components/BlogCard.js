@@ -35,6 +35,9 @@ const BlogCard = (props) => {
     if (props.blog.title === "8 Incredible Extensions For Visual Studio Code") {
         finalBlogDescription = "Visual Studio Code is a free code editor redefined and optimized for building and debugging modern web and cloud applications. It supports a wide variety of programming languages such as JavaScript, TypeScript, Node.js, C++, C#, Java, Python, and more! I’ve been a developer for almost..."
     }
+    if (props.blog.title === "How To Deploy A Rails API To Heroku") {
+        finalBlogDescription = "I recently created and deployed an application called Tip Out. It’s an application that enables waiters and waitresses the ability to record and view tip outs. My inspiration came from my current employer, MadLife Stage & Studio, where I currently work as a waiter. The application was built with..."
+    }
     return (
         <div className='blog-card'>
             <div className='blog-card-left'>
