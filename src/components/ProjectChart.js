@@ -51,7 +51,8 @@ const ProjectChart = () => {
                     ["Jul 2020", 72],
                     ["Aug 2020", 68],
                     ["Sep 2020", 92],
-                    ["Oct 2020", 53],
+                    ["Oct 2020", 62],
+                    ['Nov 2020', 1]
                 ]}
                 options={{
                     animation: {
