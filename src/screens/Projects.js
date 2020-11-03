@@ -14,6 +14,7 @@ import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 import ProjectChart from '../components/ProjectChart'
 import TipOutProject from '../components/TipOutProject'
+import CoronAwarenessProject from '../components/CoronAwarenessProject'
 
 
 
@@ -29,6 +30,10 @@ const Projects = () => {
                 <Flash>
                     <CurretNumbers />
                 </Flash>
+                <hr width='80%' />
+                <Fade bottom>
+                    <CoronAwarenessProject />
+                </Fade>
                 <hr width='80%' />
                 <Fade bottom>
                     <TipOutProject />
