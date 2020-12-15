@@ -13,7 +13,7 @@ const CurretNumbers = () => {
             <div className='currentNumber'>
                 <h2 className='currentNumberIcon' id='githubSquareIcon'><Icon name="github square" link size='big' /></h2>
                 <h2 className='currentNumberTitle'>GitHub Commits</h2>
-                <CountUp delay={2} end={880} duration={4} className='countingNumber' />
+                <CountUp delay={2} end={891} duration={4} className='countingNumber' />
             </div>
             <div className='currentNumber'>
                 <h2 className='currentNumberIcon' id='githubAlternateIcon'><Icon name="github alternate" link size='big' /></h2>
