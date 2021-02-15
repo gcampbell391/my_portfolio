@@ -12,9 +12,12 @@ const About = () => {
     return (
         <div className='aboutScreen'>
             <Header />
-            <div className="carouselContainer">
+            {/* <div className="carouselContainer">
                 <ImageCarousel />
                 <InterestsCarousel />
+            </div> */}
+            <div className='aboutScreen-img-container'>
+                <img src={require("../images/aboutMe.png")} alt="laptop screen with code on it" id='about-me-img' />
             </div>
             <AboutMe />
             <Interests />

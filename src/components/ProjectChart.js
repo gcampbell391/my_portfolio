@@ -1,7 +1,7 @@
 import React from 'react'
 import { Chart } from "react-google-charts";
 import 'chart.js'
-
+import Loader from "./Loader"
 
 
 //Custom Hook to return current height and width of 
@@ -39,7 +39,7 @@ const ProjectChart = () => {
             <Chart
                 height={'300px'}
                 chartType="LineChart"
-                loader={<div>Loading Chart</div>}
+                loader={<Loader />}
                 data={[
                     ['x', 'commits'],
                     ["Jan 2020", 19],
@@ -52,7 +52,10 @@ const ProjectChart = () => {
                     ["Aug 2020", 68],
                     ["Sep 2020", 92],
                     ["Oct 2020", 62],
-                    ['Nov 2020', 25]
+                    ['Nov 2020', 31],
+                    ["Dec 2020", 6],
+                    ["Jan 2021", 0],
+                    ["Feb 2021", 15]
                 ]}
                 options={{
                     animation: {
