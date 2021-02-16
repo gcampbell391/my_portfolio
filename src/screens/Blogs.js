@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Dimmer } from 'semantic-ui-react'
-import { Loader } from 'semantic-ui-react'
+import { Button } from 'semantic-ui-react'
+// import { Loader } from 'semantic-ui-react'
+import Loader from "../components/Loader"
 import BlogCard from '../components/BlogCard'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -31,9 +32,8 @@ const Blogs = () => {
                     <img src={require('../images/blogHeader.png')} id='blogHeaderImage' alt='blog header' />
                 </div>
                 <div className='blogs-container'>
-                    <Dimmer active>
-                        <Loader size='massive'>Loading Blogs</Loader>
-                    </Dimmer>
+                    <Loader />
+                    <p id="blog-loader-title">Loading Blogs...</p>
                     <div className='blog-view-all-container'>
                         <a href="https://medium.com/@gcampbell391" target="_blank" rel="noopener noreferrer">
                             <Button color='blue'>View Medium Channel</Button>
