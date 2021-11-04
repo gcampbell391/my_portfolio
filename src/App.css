@@ -304,6 +304,15 @@ color: white
   font-family: 'Bungee Shade', cursive;
 }
 
+#contact-form-disclaimer{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+#contact-form-disclaimer-green-text{
+  color:green;
+}
+
 
 #projectTitle{
   padding-top: 50px;
@@ -957,26 +966,25 @@ z-index: 1;
   
 
 
-  #projectTitle{
+#projectTitle{
     font-size: 30px;
     padding-top: 70px;
     text-shadow: 2px 2px black;
-  }
+}
 
 
   
-  .contactMe{
-    color:white;
-    padding-bottom: 20px;;
-  }
-  
-  #contactMeTitle{
-    color:white;
-    font-size: 30px;
-    margin-top: 30px;
-    text-shadow: 2px 2px black;
-  }
-  
+.contactMe{
+  color:white;
+  padding-bottom: 20px;;
+}
+
+#contactMeTitle{
+  color:white;
+  font-size: 30px;
+  margin-top: 30px;
+  text-shadow: 2px 2px black;
+}
 .Footer{
     text-align: center;
 }

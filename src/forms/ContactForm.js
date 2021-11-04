@@ -69,6 +69,7 @@ const ContactForm = () => {
                     color='green'
                 />
             </Form>
+            <p id="contact-form-disclaimer">Click the <span id='contact-form-disclaimer-green-text'>paper plane</span>, and let's chat!</p>
         </div>
     )
 }
