@@ -1,4 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
 [build.environment]
   NODE_VERSION = "18"
   PYTHON_VERSION = "3.10"
   PUPPETEER_SKIP_DOWNLOAD = "true"
+  CI = "false"
