@@ -7,3 +7,4 @@
   PYTHON_VERSION = "3.10"
   PUPPETEER_SKIP_DOWNLOAD = "true"
   CI = "false"
+  NODE_OPTIONS = "--openssl-legacy-provider"
